@@ -15,6 +15,7 @@
 		8BA1C5B924055F2900DABC90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BA1C5B824055F2900DABC90 /* Assets.xcassets */; };
 		8BA1C5BC24055F2900DABC90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BA1C5BA24055F2900DABC90 /* LaunchScreen.storyboard */; };
 		8BA1C5C52405614E00DABC90 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA1C5C42405614E00DABC90 /* R.generated.swift */; };
+		8BA1C5CA2405732100DABC90 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8BA1C5CC2405732100DABC90 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,10 @@
 		8BA1C5BB24055F2900DABC90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8BA1C5BD24055F2900DABC90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BA1C5C42405614E00DABC90 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
+		8BA1C5C624056BBE00DABC90 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		8BA1C5C724056BBE00DABC90 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		8BA1C5CB2405732100DABC90 /* zh */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh; path = zh.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8BA1C5CD2405732500DABC90 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		9182F6CCECB52BA1CF633F64 /* Pods-RswiftDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RswiftDemo.debug.xcconfig"; path = "Target Support Files/Pods-RswiftDemo/Pods-RswiftDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		B9A06A1817385A3732B09AA6 /* Pods_RswiftDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RswiftDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -75,12 +80,13 @@
 			children = (
 				8BA1C5AF24055F2700DABC90 /* AppDelegate.swift */,
 				8BA1C5B124055F2700DABC90 /* SceneDelegate.swift */,
-				8BA1C5C42405614E00DABC90 /* R.generated.swift */,
 				8BA1C5B324055F2700DABC90 /* ViewController.swift */,
 				8BA1C5B524055F2700DABC90 /* Main.storyboard */,
 				8BA1C5B824055F2900DABC90 /* Assets.xcassets */,
 				8BA1C5BA24055F2900DABC90 /* LaunchScreen.storyboard */,
 				8BA1C5BD24055F2900DABC90 /* Info.plist */,
+				8BA1C5C42405614E00DABC90 /* R.generated.swift */,
+				8BA1C5CC2405732100DABC90 /* Localizable.strings */,
 			);
 			path = RswiftDemo;
 			sourceTree = "<group>";
@@ -134,11 +140,12 @@
 			};
 			buildConfigurationList = 8BA1C5A724055F2700DABC90 /* Build configuration list for PBXProject "RswiftDemo" */;
 			compatibilityVersion = "Xcode 9.3";
-			developmentRegion = en;
+			developmentRegion = zh;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
+				zh,
 				Base,
+				en,
 			);
 			mainGroup = 8BA1C5A324055F2700DABC90;
 			productRefGroup = 8BA1C5AD24055F2700DABC90 /* Products */;
@@ -156,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BA1C5BC24055F2900DABC90 /* LaunchScreen.storyboard in Resources */,
+				8BA1C5CA2405732100DABC90 /* Localizable.strings in Resources */,
 				8BA1C5B924055F2900DABC90 /* Assets.xcassets in Resources */,
 				8BA1C5B724055F2700DABC90 /* Main.storyboard in Resources */,
 			);
@@ -243,6 +251,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				8BA1C5B624055F2700DABC90 /* Base */,
+				8BA1C5C624056BBE00DABC90 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -251,8 +260,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				8BA1C5BB24055F2900DABC90 /* Base */,
+				8BA1C5C724056BBE00DABC90 /* en */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8BA1C5CC2405732100DABC90 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BA1C5CB2405732100DABC90 /* zh */,
+				8BA1C5CD2405732500DABC90 /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -262,6 +281,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -308,7 +328,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -322,6 +342,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -362,7 +383,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

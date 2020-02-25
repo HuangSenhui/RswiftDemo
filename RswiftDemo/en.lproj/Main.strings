@@ -1,0 +1,9 @@
+
+/* Class = "UILabel"; text = "IB：中文"; ObjectID = "5qW-cc-HBu"; */
+"5qW-cc-HBu.text" = "IB：Chinese";
+
+/* Class = "UIButton"; normalTitle = "语言设置"; ObjectID = "Qtr-ih-0wq"; */
+"Qtr-ih-0wq.normalTitle" = "Language Setting";
+
+/* Class = "UILabel"; text = "Code：中文"; ObjectID = "WfM-ZC-VHZ"; */
+"WfM-ZC-VHZ.text" = "Code：English";

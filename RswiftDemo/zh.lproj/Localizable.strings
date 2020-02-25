@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  RswiftDemo
+
+  Created by HuangSenhui on 2020/2/25.
+  Copyright © 2020 HuangSenhui. All rights reserved.
+*/
+
+"系统语言" = "系统语言";
+"多语言" = "多语言";
+"取消" = "取消";
+
